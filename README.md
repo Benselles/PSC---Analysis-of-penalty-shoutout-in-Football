@@ -1,8 +1,8 @@
-# Analyse des tirs au but au football - Projet Scientifique Collectif
+# Analysis of Penalty Shootouts in Football – Collective Scientific Project
 
-Ce projet, réalisé dans le cadre du Projet Scientifique Collectif (PSC) à l'École Polytechnique, propose une étude approfondie des tirs au but dans le football. Il combine une approche statistique descriptive et des analyses plus poussées pour mieux comprendre les facteurs influençant la réussite ou l’échec d’un tir au but, du point de vue du tireur et du gardien.
+This project, conducted as part of the Collective Scientific Project (PSC) at École Polytechnique, offers an in-depth study of penalty shootouts in football. It combines a descriptive statistical approach with more advanced analyses to better understand the factors influencing the success or failure of a penalty shot, from both the shooter's and goalkeeper's perspectives.
 
-## Auteurs
+## Authors
 
 - Nicolas Bracco  
 - Théo Clary  
@@ -12,28 +12,27 @@ Ce projet, réalisé dans le cadre du Projet Scientifique Collectif (PSC) à l'�
 
 ## Description
 
-Le projet s’appuie sur des données issues de plusieurs compétitions internationales (Coupe du Monde, Euro, Ligue des Champions, Ligue Europa, Copa America, Coupe de France, Coupe du monde des clubs, Coup d'Afrique des Nations, Copa Libertadores et Gold Cup) pour construire une base d’analyse riche.  
-Le **Jupyter Notebook** fourni suit la structure du rapport final, avec les titres de sections correspondant directement aux parties du document écrit.  
-Les résultats et interprétations sont automatiquement exportés dans un fichier `.txt` à l’exécution du notebook. Les graphiques donnés dans le rapport sont automatiquement sauvegarder en image `.png` lors de l'éxécution des cellules.
+The project is based on data from several international competitions (World Cup, Euro, Champions League, Europa League, Copa America, Coupe de France, Club World Cup, Africa Cup of Nations, Copa Libertadores, and Gold Cup) to build a rich analytical database.  
+The **Jupyter Notebook** provided follows the structure of the final report, with section titles corresponding directly to the written document.  
+The results and interpretations are automatically exported to a `.txt` file when the notebook is run. The graphs shown in the report are automatically saved as `.png` images when the relevant cells are executed.
 
-## Contenu du notebook
+## Notebook Contents
 
-Le projet est structuré en plusieurs grandes parties :
-- **Statistiques descriptives** : répartition des zones de tir, analyse du pied du tireur, comportement du gardien, etc.
-- **Analyses croisées** : influence des préférences du tireur et du gardien, étude comparant les grandes compétitions et les autres compétitions, etc.
+The project is structured into several main parts:
+- **Descriptive statistics**: shot zone distribution, shooter's foot analysis, goalkeeper behavior, etc.
+- **Cross-analysis**: influence of shooter and goalkeeper preferences, comparison between major and minor competitions, etc.
 
-## Technologies utilisées
+## Technologies Used
 
-- Python 3
-- Jupyter Notebook
-- Bibliothèques : `pandas`, `numpy`, `matplotlib`, `seaborn`, `scipy`, etc.
+- Python 3  
+- Jupyter Notebook  
+- Libraries: `pandas`, `numpy`, `matplotlib`, `seaborn`, `scipy`, etc.
 
-## Exécution du projet
+## How to Run the Project
 
-1. Cloner ce dépôt ou télécharger les fichiers.
-2. Ouvrir `psc_final.ipynb` dans un environnement Jupyter.
-3. Exécuter toutes les cellules : le fichier `output.txt` sera généré automatiquement avec l’ensemble des sorties du notebook.
+1. Clone this repository or download the files.
+2. Open `psc_final.ipynb` in a Jupyter environment.
+3. Run all cells: the file `output.txt` will be generated automatically with all notebook outputs.
 
 ```bash
 jupyter notebook psc_final.ipynb
-
